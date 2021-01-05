@@ -1,0 +1,71 @@
+/* SOCIAL MEDIA */
+
+/* MAIN CONTROL - CHANGE FOR POSITION */
+
+p {
+font-family: Courier;
+font-size: 17px;  
+background-color: #18262C;
+
+}
+.media ul {
+	position:absolute;
+	left: 35%;
+	padding: none;
+	margin: none;
+	display: flex;
+	bottom: 0;
+}
+
+.media ul li {
+	list-style: none;
+	margin: 0 15px;
+	min-height: 100px;
+
+}
+
+/* The actual logo inside circle */
+.media ul li .fa {
+	font-size: 32px;
+	line-height: 20px
+	transition .6s;
+	color: #000;
+	transform: translate(0%, 40%);
+}
+ 
+ /* JUST THE CIRCLE and shadow */
+.media ul li a {
+	position: bottom;
+	display: block;
+	width: 54px;
+	height: 54px;
+	border-radius: 50%;
+	background-color: #fff;
+	text-align: center;
+	transition: .6s;
+	box-shadow: 0 5px 4px rgba(0, 0, 0, .5)
+}
+
+.media ul li a:hover {
+	transform: translate(0, -10px);
+}
+
+/* LinkedIn */
+.media ul li:nth-child(1) a:hover {
+	background-color: #0e76a8;
+}
+
+/* Github*/
+.media ul li:nth-child(2) a:hover {
+	background-color: #1da1f2;
+}
+
+/* Twitter */
+.media ul li:nth-child(3) a:hover {
+	background-color: #6e5494;
+}
+
+/* Resume doc */
+.media ul li:nth-child(4) a:hover {
+	background-color: #A9A9A9;
+}

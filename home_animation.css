@@ -1,0 +1,24 @@
+.hidden {
+  opacity:0;
+  position: fixed;
+}
+.console-container {
+ 
+  font-family:courier;
+  font-size:20px;
+  text-align:center;
+  padding-bottom: 17%;
+  position: absolute;
+  color:white;
+  top:60%;
+  bottom:0%;
+  left:20px;
+  right:20px;
+  margin:auto;
+}
+.console-underscore {
+  display:inline-block;
+  position:relative;
+  top:-0.14em;
+  left:10px;
+}

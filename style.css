@@ -97,13 +97,13 @@ footer {
 }
 /* Section Images */
 section#home {
-  background: url('file:///Users/armanmoztarzadeh/Desktop/index2.html/john-towner-JgOeRuGD_Y4-unsplash.jpg') no-repeat center center/cover;;
+  background: url('/Users/armanmoztarzadeh/Desktop/index2.html/john-towner-JgOeRuGD_Y4-unsplash.jpg') no-repeat center center/cover;;
 }
 section#about { 
-  background: url('file:///Users/armanmoztarzadeh/Desktop/index2.html/marek-piwnicki-cRCyuPRuVfw-unsplash.jpg') no-repeat center center/cover;;
+  background: url('/Users/armanmoztarzadeh/Desktop/index2.html/marek-piwnicki-cRCyuPRuVfw-unsplash.jpg') 
 }
 section#skills {
-  background: url('file:///Users/armanmoztarzadeh/Desktop/index2.html/esther-jiao-B3FyeM21GdA-unsplash.jpg') no-repeat center center/cover;;
+  background: url('/Users/armanmoztarzadeh/Desktop/index2.html/esther-jiao-B3FyeM21GdA-unsplash.jpg') no-repeat center center/cover;;
   background-color: #33324B;
 }
 section#projects{
@@ -116,7 +116,7 @@ section#projects{
 
 section#contact {
 
-  background: url('file:///Users/armanmoztarzadeh/Desktop/index2.html/showcase.jpg') no-repeat center center/cover;;
+  background: url('/Users/armanmoztarzadeh/Desktop/index2.html/showcase.jpg') no-repeat center center/cover;;
 /*
   background-color: #33324B;
   */

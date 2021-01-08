@@ -105,19 +105,19 @@ footer  {
 }
 /* Section Images */
 section#home {
-  background: url('/Users/armanmoztarzadeh/Desktop/index2.html/Images/2.jpg') no-repeat center center/cover;;
+  background-image: url('/Users/armanmoztarzadeh/Desktop/index2.html/Images/2.jpg') no-repeat center center/cover;;
 }
 section#about { 
-  background: url('/Users/armanmoztarzadeh/Desktop/index2.html/Images/6.jpg') 
+  background-image: url('/Users/armanmoztarzadeh/Desktop/index2.html/Images/6.jpg') 
 }
 section#skills {
-  background: url('/Users/armanmoztarzadeh/Desktop/index2.html/Images/1.png') no-repeat center center/cover;;
+  background-image: url('/Users/armanmoztarzadeh/Desktop/index2.html/Images/1.png') no-repeat center center/cover;;
   /*
   background-color: #33324B;
   */
 }
 section#projects{
-  background: url('file:///Users/armanmoztarzadeh/Desktop/index2.html/Images/9.jpg') no-repeat center center/cover;;
+  background-image: url('file:///Users/armanmoztarzadeh/Desktop/index2.html/Images/9.jpg') no-repeat center center/cover;;
 }
 
 section#contact {

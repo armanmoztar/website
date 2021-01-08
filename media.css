@@ -2,28 +2,31 @@
 
 /* MAIN CONTROL - CHANGE FOR POSITION */
 
-p {
+footer {
 font-family: Courier;
+position: relative;
+padding-top: 40px;
+padding-bottom: 1%;
 font-size: 17px;  
 background-color: #18262C;
+text-align: center;
+
 
 }
 .media ul {
 	position:absolute;
-	left: 35%;
-	padding: none;
-	margin: none;
+	top: 50%;
+	left: 50%;
+	padding: 0;
+	margin: 0;
 	display: flex;
 	bottom: 0;
+	transform: translate(-50%, 80%);
 }
-
 .media ul li {
 	list-style: none;
 	margin: 0 15px;
-	min-height: 100px;
-
 }
-
 /* The actual logo inside circle */
 .media ul li .fa {
 	font-size: 32px;

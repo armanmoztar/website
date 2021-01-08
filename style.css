@@ -24,7 +24,6 @@ align-self: center;
   text-align: center;
   box-sizing: content-box;
 }
-
 #description_about {
 box-sizing: content-box;
 width: 50%;
@@ -32,16 +31,16 @@ font-size:25px;
 }
 #description_skills1{
 box-sizing: content-box;
+position: absolute;
 width: 40%;
 font-size:26px; 
 left: 20px;
-position:absolute;
 }
 #description_skills2{
 box-sizing: content-box;
+position:absolute;
 width: 40%;
 font-size:26px; 
-position:absolute;
 right: 20px;
 }
 
@@ -62,7 +61,6 @@ font-size: 25px;
   
 }
 section div {
-
 transition: all ease-in-out 900ms;
 list-style: none;
 display: block;
@@ -85,9 +83,19 @@ section {
 section h1 {
   font-size: 4rem;
   padding-bottom: 10px;
+}
+section h1 #contact_header {
+  font-size: 30px;
+  padding-bottom: 30px;
+  position:absolute;
+  top: 50%;
+  left: 50%;
+  padding: 0;
+  margin: 0;
+}
 
 }
-footer {
+footer  {
   font-size: 15px;
   text-align: center;
   color:#fff;
@@ -109,13 +117,12 @@ section#skills {
   */
 }
 section#projects{
-  background: url('file:///Users/armanmoztarzadeh/Desktop/index2.html/Images/8.jpg') no-repeat center center/cover;;
+  background: url('file:///Users/armanmoztarzadeh/Desktop/index2.html/Images/9.jpg') no-repeat center center/cover;;
 }
 
 section#contact {
 /*
   background: url('/Users/armanmoztarzadeh/Desktop/index2.html/Images/.jpg') no-repeat center center/cover;;
 */
-  background-color: #33324B;
-
+  background-color: #242536;
 }

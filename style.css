@@ -105,20 +105,20 @@ footer  {
 }
 /* Section Images */
 section#home {
-  background: url('file:///Users/armanmoztarzadeh/Desktop/download.png') no-repeat center center/cover;
+  background: url('Images/2.jpg') no-repeat center center/cover;
   height: 100vh;
 }
 section#about { 
-  background: url('/Users/armanmoztarzadeh/Desktop/index2.html/Images/6.jpg') no-repeat center center/cover;
+  background: url('Images/6.jpg') no-repeat center center/cover;
   height: 100vh;
 }
 section#skills {
-  background: url('/Users/armanmoztarzadeh/Desktop/index2.html/Images/1.png') no-repeat center center/cover;
+  background: url('Images/1.png') no-repeat center center/cover;
   height: 100vh;
 }
  
 section#projects {
-  background: url('file:///Users/armanmoztarzadeh/Desktop/index2.html/Images/9.jpg') no-repeat center center/cover;
+  background: url('Images/9.jpg') no-repeat center center/cover;
   height: 100vh;
 }
 

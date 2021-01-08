@@ -105,24 +105,23 @@ footer  {
 }
 /* Section Images */
 section#home {
-  background-image: url('/Users/armanmoztarzadeh/Desktop/index2.html/Images/2.jpg') no-repeat center center/cover;;
+  background: url('/Users/armanmoztarzadeh/Desktop/index2.html/Images/2.jpg') no-repeat center center/cover;
+  height: 100vh;
 }
 section#about { 
-  background-image: url('/Users/armanmoztarzadeh/Desktop/index2.html/Images/6.jpg') 
+  background: url('/Users/armanmoztarzadeh/Desktop/index2.html/Images/6.jpg') no-repeat center center/cover;
+  height: 100vh;
 }
 section#skills {
-  background-image: url('/Users/armanmoztarzadeh/Desktop/index2.html/Images/1.png') no-repeat center center/cover;;
-  /*
-  background-color: #33324B;
-  */
+  background: url('/Users/armanmoztarzadeh/Desktop/index2.html/Images/1.png') no-repeat center center/cover;
+  height: 100vh;
 }
-section#projects{
-  background-image: url('file:///Users/armanmoztarzadeh/Desktop/index2.html/Images/9.jpg') no-repeat center center/cover;;
+ 
+section#projects {
+  background: url('file:///Users/armanmoztarzadeh/Desktop/index2.html/Images/9.jpg') no-repeat center center/cover;
+  height: 100vh;
 }
 
 section#contact {
-/*
-  background: url('/Users/armanmoztarzadeh/Desktop/index2.html/Images/.jpg') no-repeat center center/cover;;
-*/
   background-color: #242536;
 }

@@ -105,7 +105,7 @@ footer  {
 }
 /* Section Images */
 section#home {
-  background: url('/Users/armanmoztarzadeh/Desktop/index2.html/Images/2.jpg') no-repeat center center/cover;
+  background: url('file:///Users/armanmoztarzadeh/Desktop/download.png') no-repeat center center/cover;
   height: 100vh;
 }
 section#about { 

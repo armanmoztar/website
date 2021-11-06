@@ -14,11 +14,11 @@ flex-basis: 20%;
 align-self: center;
 }
 .container {
-	max-height: 100vh;
+/*	max-height: 100vh;
 	overflow-y: : scroll;
   margin-bottom: 0;
 	scroll-behavior: smooth;
-	scroll-snap-type: y mandatory;
+	scroll-snap-type: y mandatory;*/
 }
 .lead {
   text-align: center;
@@ -116,12 +116,8 @@ section#skills {
   background: url('Images/1.png') no-repeat center center/cover;
   height: 100vh;
 }
- 
-section#projects {
-  background: url('Images/9.jpg') no-repeat center center/cover;
-  height: 100vh;
-}
 
 section#contact {
-  background-color: #242536;
+  background: url('Images/4.jpg') no-repeat center center/cover;
+  height: 100vh;
 }

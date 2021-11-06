@@ -4,29 +4,55 @@
 
 footer {
 font-family: Courier;
-position: relative;
 padding-top: 40px;
 padding-bottom: 1%;
 font-size: 17px;  
 background-color: #18262C;
 text-align: center;
-
-
 }
+
+/*.media {
+transform: translate(-50%, -50%);
+display: inline-block;
+
+ margin-bottom: 0;
+ margin: 0 5px;
+ height: 60px;
+ width: 60px;
+}*/
+
+
 .media ul {
-	position:absolute;
-	top: 50%;
-	left: 50%;
-	padding: 0;
-	margin: 0;
-	display: flex;
-	bottom: 0;
-	transform: translate(-50%, 80%);
+
+	margin:0;
+	transform: translate(5, 20px);
+	list-style: none;
+	float: center;
+	align-items: center;
+	padding-top: 1em 0;
+
+/* margin-bottom: 0;
+ padding: 20px;
+ margin: 10px 30px;
+ text-align: center;  
+            width: 50px;
+            text-align: center;
+            border: gray;
+            color: #fff;
+            cursor: pointer;
+            font-weight: bold;*/
+
+
+
 }
 .media ul li {
+	margin: 10px;
 	list-style: none;
-	margin: 0 15px;
+	display: inline-block;
+	position: relative;
+
 }
+
 /* The actual logo inside circle */
 .media ul li .fa {
 	font-size: 32px;
@@ -58,12 +84,12 @@ text-align: center;
 	background-color: #0e76a8;
 }
 
-/* Github*/
+/* Email*/
 .media ul li:nth-child(2) a:hover {
-	background-color: #1da1f2;
+	background-color: #D8A5D5;
 }
 
-/* Twitter */
+/* Github */
 .media ul li:nth-child(3) a:hover {
 	background-color: #6e5494;
 }

@@ -24,7 +24,7 @@ display: inline-block;
 
 .media ul {
 
-	margin:0;
+	margin:10;
 	transform: translate(5, 20px);
 	list-style: none;
 	float: center;
@@ -46,11 +46,11 @@ display: inline-block;
 
 }
 .media ul li {
-	margin: 10px;
+	padding-top: 17%;
+	margin: 14px;
 	list-style: none;
 	display: inline-block;
 	position: relative;
-
 }
 
 /* The actual logo inside circle */
@@ -86,7 +86,7 @@ display: inline-block;
 
 /* Email*/
 .media ul li:nth-child(2) a:hover {
-	background-color: #D8A5D5;
+	background-color: #57CE5B;
 }
 
 /* Github */

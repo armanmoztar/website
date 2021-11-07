@@ -58,7 +58,10 @@ font-size: 25px;
   box-sizing: content-box;
 }
 #skills {
-  
+  box-sizing: content-box;
+  position: center;
+  padding-bottom: 6%;
+
 }
 section div {
 transition: all ease-in-out 900ms;

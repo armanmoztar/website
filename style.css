@@ -13,13 +13,15 @@ scroll-behavior: smooth;
 flex-basis: 20%;
 align-self: center;
 }
+
 .container {
 	max-height: 100vh;
-	overflow-y: : scroll;
+	overflow-y:  scroll;
   margin-bottom: 0;
 	scroll-behavior: smooth;
 	scroll-snap-type: y mandatory;
 }
+
 .lead {
   text-align: center;
   box-sizing: content-box;
@@ -42,6 +44,22 @@ position:absolute;
 width: 40%;
 font-size:26px; 
 right: 20px;
+}
+
+a:visited {
+  color:lightcyan;
+  background-color: transparent;
+  text-decoration: none;
+}
+a:hover {
+  color: cornflowerblue;
+  background-color: transparent;
+  text-decoration: none;
+}
+a:active {
+  color: yellow;
+  background-color: transparent;
+  text-decoration: underline;
 }
 
 div #links{
@@ -96,6 +114,7 @@ section h1 #contact_header {
   padding: 0;
   margin: 0;
 }
+
 
 footer  {
   font-size: 15px;
